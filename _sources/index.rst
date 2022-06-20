@@ -48,7 +48,7 @@ SECTION 3: Testing multiple choice answers
 ::::::::::::::::::::::::::::
 
 Testing with a weird question
-----------
+-----------------------------
 
 .. mchoice:: test_question1
    :correct: a
