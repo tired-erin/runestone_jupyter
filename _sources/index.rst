@@ -44,56 +44,28 @@ Runestone uses the ``restructuredText`` (rst) markup language.  We chose this ov
 
 
 
-SECTION 3: Sample Directives
+SECTION 3: Testing multiple choice answers
 ::::::::::::::::::::::::::::
 
-ActiveCode
+Testing with a weird question
 ----------
 
-.. activecode:: codeexample1
-   :coach:
-   :caption: This is a caption
-
-   print("My first program adds a list of numbers")
-   myList = [2, 4, 6, 8, 10]
-   total = 0
-   for num in myList:
-       total = total + num
-   print(total)
-
-Multiple Choice
----------------
-
-.. mchoice:: question1_2
-    :multiple_answers:
-    :correct: a,b,d
-    :answer_a: red
-    :answer_b: yellow
-    :answer_c: black
-    :answer_d: green
-    :feedback_a: Red is a definitely on of the colors.
-    :feedback_b: Yes, yellow is correct.
-    :feedback_c: Remember the acronym...ROY G BIV.  B stands for blue.
-    :feedback_d: Yes, green is one of the colors.
-
-    Which colors might be found in a rainbow? (choose all that are correct)
-
-These are just two of the many interactive components for writing online course materials.  You can see examples of all of them `On our Example Page <http://interactivepython.org/runestone/static/overview/overview.html>`_
-
-Now feel free to modify this file to start creating your own interactive page.
+.. mchoice:: test_question1
+   :correct: a
+   :answer_a: yes
+   :answer_b: no
+   :feedback_a: uh oh! Stinky!!!
+   :feedback_b: White is the mixing of all of the colors in the rainbow.
 
 
-Section 4: Theme
+   Is pant poopy?
+
+
+Section 4: codelens
 :::::::::::::::::::
 
-You can add your own CSS or JS files to every page of a book by modifying ``setup.custom_css_files`` or ``setup.custom_js_files`` in conf.py.
 
-If you want to do more significant changes to the theme, you should copy the files you wish to modify from
-the runestone/common/project/template/sphinx_bootstrap to a directory like ``_templates/``. Then make sure
-the ``templates_path`` points to them in your conf.py.
+.. codelens::
 
-conf.py:
-
-.. code::
-
-    templates_path = ["_templates"]
+    print("uh oh!")
+    :question: try it yourself!
