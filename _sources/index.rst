@@ -45,7 +45,7 @@ Runestone uses the ``restructuredText`` (rst) markup language.  We chose this ov
 
 
 SECTION 3: Testing multiple choice answers
-::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::
 
 Testing with a weird question
 -----------------------------
@@ -65,7 +65,7 @@ Section 4: codelens
 :::::::::::::::::::
 
 
-.. codelens::
+.. codelens:: test_code1
 
     print("uh oh!")
     :question: try it yourself!
