@@ -13,22 +13,18 @@ This Is A New Project
 .. Sources can also be included from subfolders of this directory.
    (e.g. "DataStructures/queues.rst").
 
-SECTION 1: Introduction
-:::::::::::::::::::::::
+SECTION 1: Basic text
+:::::::::::::::::::::
 
-Congratulations!   If you can see this file you have probably successfully run the ``runestone init`` command.  If you are looking at this as a source file you should now run ``runestone build``  to generate html files.   Once you have run the build command you can run ``runestone serve`` and then view this in your browser at ``http://localhost:8000``
+I LOVE MY GIRLFRIEND SO MUCH AAAAA
+.. mchoice:: test_question2
+   :correct: a,b,c,d
+   :answer_a: her face
+   :answer_b: her body
+   :answer_c: her personality
+   :answer_d: her uhhh her uh
 
-This is just a sample of what you can do.  The index.rst file is the table of contents for your entire project.  You can put all of your writing in the index, or  you can include additional rst files.  Those files may even be in subdirectories that you can reference using a relative path.
-
-
-::
-
-
-   .. toctree::
-      :maxdepth: 2
-
-      some/path/myfile.rst
-
+   what do i love about her?
 
 Section 2: Poopy pants
 :::::::::::::::::::::::
@@ -55,7 +51,7 @@ Testing with a weird question
    :answer_a: yes
    :answer_b: no
    :feedback_a: uh oh! Stinky!!!
-   :feedback_b: White is the mixing of all of the colors in the rainbow.
+   :feedback_b: IT IS STINKY!!
 
 
    Is pant poopy?
