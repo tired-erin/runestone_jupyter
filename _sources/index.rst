@@ -30,7 +30,7 @@ This is just a sample of what you can do.  The index.rst file is the table of co
       some/path/myfile.rst
 
 
-Section 2: Links
+Section 2: Poopy pants
 ::::::::::::::::
 
 Runestone uses the ``restructuredText`` (rst) markup language.  We chose this over markdown largely because rst is extensible.  Nearly all of the basic markup tasks are already handled by restructuredText.  You should check out the docs for the basics of restructuredText (link below). Our extensions are all for the interactive elements.  One key hint about restructuredText:  Its like **Python** -- *indentation matters!*
@@ -92,6 +92,6 @@ the ``templates_path`` points to them in your conf.py.
 
 conf.py:
 
-.. code:: 
+.. code::
 
     templates_path = ["_templates"]
