@@ -34,7 +34,6 @@ Section 2: Poopy pants
 :::::::::::::::::::::::
 
 .. youtube:: FveF-we6lcE
-   :options:
 
 Runestone uses the ``restructuredText`` (rst) markup language.  We chose this over markdown largely because rst is extensible.  Nearly all of the basic markup tasks are already handled by restructuredText.  You should check out the docs for the basics of restructuredText (link below). Our extensions are all for the interactive elements.  One key hint about restructuredText:  Its like **Python** -- *indentation matters!*
 
